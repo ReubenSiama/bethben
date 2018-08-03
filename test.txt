@@ -1,0 +1,31 @@
+User
+	-> Registers
+	-> Logs in
+	-> Posts images/statuses
+	-> Comments
+	-> Likes/Dislikes
+	-> Edit Posts
+	-> Delete Posts
+
+User Table
+	UserName
+	Email
+	Pone Number
+	Password
+
+Posts Table
+	Id
+	User_id
+	Post Content
+	Image
+
+Comments Table
+	Id
+	Post_id
+	User_id
+	Content
+
+Likes Table
+	Id
+	User_id
+	Post_id
